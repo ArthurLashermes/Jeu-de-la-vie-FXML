@@ -1,0 +1,42 @@
+On utilise ce fichier pour dire ce qu'on a fait et poser des questions
+
+[Mathis 3/12]
+J'ai corrigé des fautes, tu écrivais cellues au lieu de celluLes
+J'ai pas tésté de compiler
+j'ai aussi remplacer la récupération des voisines par une boucle
+
+Est-ce qu'on créerais pas une grille initialisé de base avec plein de celulle, qu'on viendrais faire naitre après ? Comme ça on aura même pas besoin de se préocupper de la taille du tableau si ça grandit, comme sur le site, et le zoom sera juste géré dans la vue
+
+
+[Arthur 10/12]
+J'ai creer les deux nouvelles classes qu'on avait fait lors du td (main et rules)
+J'ai traduit en java les méthodes qu'on avait fait en TD(evolution, updateCells dans main update,evolve dans cellule)
+J'ai pas réussi à faire la fonction resizeGrid() j'ai oublié comment on voulais si prendre.
+
+[Mathis 10/12]
+j'ai programmé les fonctions qu'on avait écrit en TD.
+Tu n'avais pas commit le code, il n'y avait que ce fichiers et le readme
+dans jeu, j'ai rajouter faireNaitre et tuer, car on doit mettre à jour alive mais aussi insérer ou enlever la cellule de celluleEnVie.
+
+[Arthur 17/12]
+J'ai creé la classe test, j'ai fais un affichage du monde, un générateur de monde, y'avait pas mal d'erreurs j'ai corrigé le bazar.
+
+[Mathis 17/12]
+Attention sur la grille: le premier indice est pour les lignes (Y) et le suivant pour les colonnes (X)
+J'ai déplacé la class test dans un package test, j'ai vu qu'il y avait des .class un peu partout, je l'ai ai supprimé, et il seront désormais ignorés par GIT
+Monsieur Bouhours n'aime pas, il trouve que les cellules ont trop de responsabilité et que ça complexifie beaucoup trop. On doit avoir une class Dieu qui s'occupe de faire évoluer les cellules.
+Y'a un problème avec giveVoisines. Mais on va l'enlever, et on va tous refaire avec une class Dieu
+
+[Arthur 7/01]
+J'ai refais getVoisinse mais c'est pas concluant je comprend trop pourquoi ...
+
+
+[Arthur 14/01]
+J'ai adapter le diagramme de classe car il était pas à jour
+
+[Mathis 16/01]
+FUN FACT: si on met l'algo d'évolution dans le launcher après le stage show, ça l'empêche de s'actualiser, et donc on ne voit pas l'interface.
+On doit parler du problème de l'algo et de l'actualisation de la liste celluleEnVie
+
+
+
